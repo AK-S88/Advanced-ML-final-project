@@ -80,3 +80,6 @@ We developed and evaluated a **Cancer Document Classification System** using tra
 ## ✅ Conclusion
 
 The project demonstrated the potential of CNNs in biomedical text classification and underscored the importance of balancing model complexity with real-world applicability.
+
+
+Readme created using ChatGPT*
