@@ -10,15 +10,11 @@ This academic project addresses the challenge of categorizing cancer-related bio
 
 We developed and evaluated a **Cancer Document Classification System** using traditional machine learning, ensemble models, and deep learning architectures.
 
----
-
 ## 🎯 Objectives
 
 - Automate classification of research papers into **Colon**, **Lung**, and **Thyroid** cancer categories.
 - Compare classical ML models with deep learning methods like **LSTM** and **CNN**.
 - Highlight practical applicability in clinical and research decision-making workflows.
-
----
 
 ## 📁 Dataset Description
 
@@ -30,11 +26,10 @@ We developed and evaluated a **Cancer Document Classification System** using tra
   - `research_paper`: Abstract text  
 - **Data Quality**: Balanced classes, no missing values
 
----
-
 ## 🧪 Methodology
 
 ### 🔄 Preprocessing
+
 - Text cleaning (lowercasing, punctuation removal)
 - Stopword removal (NLTK)
 - Vectorization using **TF-IDF** and **CountVectorizer**
@@ -49,8 +44,6 @@ We developed and evaluated a **Cancer Document Classification System** using tra
 | Deep Learning | LSTM, CNN                           |
 | Transformers | BERT (initial attempt, removed due to environment issues) |
 
----
-
 ## 📊 Performance Summary
 
 | Model                    | Validation Accuracy | Remarks                      |
@@ -63,16 +56,12 @@ We developed and evaluated a **Cancer Document Classification System** using tra
 | LSTM                     | 85%                 | Underperformed               |
 | **CNN**                  | **97.29%**          | **Best test performance (97.16%)** |
 
----
-
 ## 💡 Key Insights
 
 - **CNN** was most effective in identifying localized patterns in text, achieving top accuracy.
 - Classical models performed well but plateaued at ~93%.
 - Ensemble models overfit on structured data and lacked generalizability.
 - Transformer models were explored but not included due to technical constraints.
-
----
 
 ## 🧠 Practical Implications
 
@@ -82,15 +71,11 @@ We developed and evaluated a **Cancer Document Classification System** using tra
   - Real-time document classification
   - Integration with biomedical embeddings (BioBERT, SciBERT)
 
----
-
 ## ⚠️ Challenges Faced
 
 - **Overfitting** in tree-based models
 - **Hardware limitations** for training transformers
 - **Reproducibility issues** across environments for BERT
-
----
 
 ## ✅ Conclusion
 
